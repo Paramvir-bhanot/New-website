@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Skill Up Institute of Learning</title>
+  <meta name="description" content="Browse Skill Up Institute gallery. Photos of campus, labs, training, and student achievements.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/images/logo.svg">
+</head>
+<body>
+  <header class="site-header sticky">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="Skill Up Institute logo" class="logo">
+        <span>Skill Up Institute of Learning</span>
+      </a>
+      <nav class="nav" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="register.html" class="btn btn-yellow">Register</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero section small">
+      <div class="container">
+        <h1 data-animate="fade-up">Gallery</h1>
+        <p data-animate="fade-up" data-delay="60">A glimpse into our institute and labs.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid gallery-grid" id="galleryGrid">
+          <a href="assets/images/gallery/1.jpg" class="gallery-item" data-animate="fade-up">
+            <img src="assets/images/gallery/1_thumb.jpg" alt="Computer lab view">
+          </a>
+          <a href="assets/images/gallery/2.jpg" class="gallery-item" data-animate="fade-up" data-delay="40">
+            <img src="assets/images/gallery/2_thumb.jpg" alt="Students learning session">
+          </a>
+          <a href="assets/images/gallery/3.jpg" class="gallery-item" data-animate="fade-up" data-delay="80">
+            <img src="assets/images/gallery/3_thumb.jpg" alt="Graphic design workshop">
+          </a>
+          <a href="assets/images/gallery/4.jpg" class="gallery-item" data-animate="fade-up" data-delay="120">
+            <img src="assets/images/gallery/4_thumb.jpg" alt="Accounting class">
+          </a>
+          <a href="assets/images/gallery/5.jpg" class="gallery-item" data-animate="fade-up" data-delay="160">
+            <img src="assets/images/gallery/5_thumb.jpg" alt="Video editing room">
+          </a>
+          <a href="assets/images/gallery/6.jpg" class="gallery-item" data-animate="fade-up" data-delay="200">
+            <img src="assets/images/gallery/6_thumb.jpg" alt="Language lab">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop" data-close-lightbox></div>
+      <img class="lightbox-image" id="lightboxImage" alt="Expanded gallery image">
+      <button class="lightbox-close" aria-label="Close" data-close-lightbox>×</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html">
+          <img src="assets/images/logo.svg" alt="Skill Up Institute logo small" class="logo small">
+          <span>Skill Up Institute of Learning</span>
+        </a>
+        <p>ISO 9001:2015 Certified. AI-integrated learning for the future workforce.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook" class="social fb" title="Facebook">
+            <img src="assets/images/icons/facebook.svg" alt="Facebook icon">
+          </a>
+          <a href="#" aria-label="Instagram" class="social ig" title="Instagram">
+            <img src="assets/images/icons/instagram.svg" alt="Instagram icon">
+          </a>
+          <a href="#" aria-label="LinkedIn" class="social li" title="LinkedIn">
+            <img src="assets/images/icons/linkedin.svg" alt="LinkedIn icon">
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="register.html">Registration</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="contact-list">
+          <li><img src="assets/images/icons/phone.svg" alt="Phone"> 98551-46491 / 94639-26371</li>
+          <li><img src="assets/images/icons/web.svg" alt="Website"> <a href="#">skillupinstitute.co.in</a></li>
+          <li><img src="assets/images/icons/email.svg" alt="Email"> <a href="mailto:info@skillupinstitute.co.in">info@skillupinstitute.co.in</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <form class="mini-contact" id="footerContact">
+          <input type="text" name="name" placeholder="Your Name" aria-label="Your Name">
+          <input type="email" name="email" placeholder="Your Email" aria-label="Your Email">
+          <textarea name="message" rows="3" placeholder="Message" aria-label="Message"></textarea>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Skill Up Institute of Learning | All Rights Reserved</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+<!-- Sample placeholders expected under assets/images/gallery/*. You can replace with real images. -->
+</html>
+
+
